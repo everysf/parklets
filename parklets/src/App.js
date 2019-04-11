@@ -9,10 +9,6 @@ const Wrapper = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: column;
-  
-  @media (max-width: 800px) {
-    min-height: 100vh;
-  }
 
   justify-content: center;
   align-items: center;
@@ -54,40 +50,33 @@ const Wrapper = styled.div`
     flex-wrap: wrap;
     max-width: 800px;
     justify-content: center;
-    margin-bottom: 50px;
+    margin: 0 20px 50px 20px;
   }
 
   .chunk:hover {
     border-top: 2px solid #305077;
     border-bottom: 2px solid #305077;
+
   }
 
   .chunk {
     margin: 10px;
     padding: 10px 0;
-    width: 250px;
     border-top: 2px solid rgba(255,255,255,0);
     border-bottom: 2px solid rgba(255,255,255,0);
     transition: .2s ease;
+    min-width: 240px;
   }
 
 `
 
 const Logo = styled.div`
 
-  height: 200px;
-  width: 600px;
+  height: 100px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
   background-image: url(img/logo.svg);
   margin: 40px;
-
-  @media (max-width: 800px) {
-    height: 120px;
-    width: 300px;
-    margin: 0;    
-  }
 
 `
 
