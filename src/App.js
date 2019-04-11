@@ -4,11 +4,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Wrapper = styled.div`
 
-  background-color: #FAF3DD;
+  background-image: url(img/pattern.svg);
+  background-position: center;
+  background-repeat: repeat;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
+  background-size: 150px;
   
   @media (max-width: 800px) {
     min-height: 100vh;
