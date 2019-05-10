@@ -191,7 +191,7 @@ class App extends Component {
         </LogoCont>
         <BottomLiner className="bottomLiner">
           <Links>
-            <a href="spotify.com">San Francisco's New Indie-Softrock</a>
+            <a href="https://www.instagram.com/parkletsband/">San Francisco's New Indie-Softrock</a>
             <a href="mailto:booking@parkletsband.com">Booking</a>
             <a href="mailto:press@parkletsband.com">Request Press Kit</a>
             <a href="mailto:mgmt@parkletsband.com">Management</a>
