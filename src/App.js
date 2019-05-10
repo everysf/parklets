@@ -4,181 +4,101 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Wrapper = styled.div`
 
-  background-image: url(img/thebandweb.jpg);
-  background-position: center;
+  background-image: url(img/palmtrees.png);
+  background-size: cover;
+  display: flex;
   height: 100vh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
-  color: #305077;
-
-  @media (max-width: 970px) {
-    display: block;    
-    height: auto;
-    min-height: 100vh;
-    background-color: #1d2427;;
-    width: 100vw;
-    background-size: contain;
-  }
-
-  .socialMedia {
-    padding: 30px 0;
-    display: flex;
-    justify-content: center;
-    @media (max-width: 970px) {
-  
-      background-color: #f8e682;
-    }
-  }
-
-  .instagram {
-    border: 2px solid #305077;
-    padding: 10px 14px;
-    border-radius: 4px;
-    margin: 0 10px;
-  }
-
-  .instagram:hover {
-    border: 2px solid #305077;
-    background-color: #305077;
-    padding: 10px 14px;
-    border-radius: 4px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #305077;
-    transition: .2s ease;
-  }
-
-  a:hover {
-    text-decoration: none;
-    color: #a1dbaa;
-  }
-
-  h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: 700;
-  }
-
-  .contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #f8e682;
-    padding: 0 5px;
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-
-    @media (max-width: 970px) {
-      position: relative;
-    }
-  }
-
-  .chunk {
-    margin: 5px 10px;
-    padding: 10px 0;
-    width: 250px;
-    border-top: 2px solid rgba(255,255,255,0);
-    border-bottom: 2px solid rgba(255,255,255,0);
-    transition: .2s ease;
-  }
 
 `
 
-const Logo = styled.div`
+const MainContent = styled.div`
 
-  height: 200px;
-  width: 600px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-image: url(img/logo.svg);
-  margin: 40px;
-
-  @media (max-width: 970px) {
-    width: 100vw;
-    height: 300px;
-    background-size: cover;
-    margin: 0;  
-    background-image: url(img/thebandweb.jpg);
-  }
-
-`
-
-const BottomLiner = styled.div`
-
-  width: 100vw;
-  height: 50px;
-  background-color: #1d2427;
-  position: fixed;
-  bottom: 0;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  color: white;
+  flex-direction: column;
+  justify-content: center;
 
   a {
     color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 20px;
+    text-decoration: none;
+    line-height: 25px;
   }
 
-  @media (max-width: 970px) {
-    height: auto;
+  a:hover {
+    color: #ace2b8;
+
+  }
+
+
+  @media (max-width: 800px) {
+
+.tagline {
+  max-width: 350px;
+  margin: 20px auto 0; 
+}
+
   }
 
 `
 
-const LogoCont = styled.div`
+const Logo = styled.div`  
 
-  margin: 0 20px;
-  position: fixed;
-  left: 0;
-  height: 100vh;
-  width: 350px;
+  width: 700px;
   background-image: url(img/parkletslogobox.svg);
-  z-index: 100;
+  height: 170px;
+  background-size: contain;
   background-position: center;
+  z-index: 100;
+  margin: 0 auto -75px;
+  background-repeat: no-repeat;
 
-  @media (max-width: 970px) {
-    position: fixed;
-    margin: 40px 0 0 0;
-    height: 140px;
+  @media (max-width: 800px) {
+
     width: 100vw;
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 120px;
+    margin: 0 auto -50px;
   }
 
+`
+
+const Band = styled.div`
+
+  width: 800px;
+  height: 500px;
+  background-image: url(img/thebandweb.jpg);
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 800px) {
+
+    width: 100vw;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
 `
 
 const Links = styled.div`
 
-  padding: 0 10px;
-
+  display: flex;
+  justify-content: center;
   a {
-    padding: 0 10px;
-    font-style: italic;
+    letter-spacing: 1px;
+    padding: 0 13px;
+    font-size: 15px;
   }
 
-  @media (max-width: 970px) {
-    display: flex;
+  @media (max-width: 800px) {
     flex-direction: column;
-    width: 100%;
-
-    a {
-
-      width: 100%;
-      padding: 10px 0;
-      text-align: center;
-    }
-    padding: 10px 0;
   }
 
 `
@@ -187,42 +107,18 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <LogoCont>
-        </LogoCont>
-        <BottomLiner className="bottomLiner">
+        <MainContent>
+          <Logo />
+          <Band />
+          <a className="tagline" href="https://www.instagram.com/parkletsband/">San Francisco's new Indie-Softrock</a>
           <Links>
-            <a href="https://www.instagram.com/parkletsband/">San Francisco's New Indie-Softrock</a>
-            <a href="mailto:booking@parkletsband.com">Booking</a>
-            <a href="mailto:press@parkletsband.com">Request Press Kit</a>
-            <a href="mailto:mgmt@parkletsband.com">Management</a>
-            <a href="mailto:fans@parkletsband.com">Fans</a>
+            <a href="mailto:parkletsband.com">Booking</a>
+            <a href="mailto:parkletsband.com">Management</a>
+            <a href="mailto:parkletsband.com">Request Press Kit</a>
+            <a href="mailto:parkletsband.com">Fans</a>
+          
           </Links>
-        </BottomLiner>
-
-        {/* <Logo>
-        </Logo>
-        <div className="socialMedia">
-          <a className="instagram" href="https://www.instagram.com/parkletsband/">Instagram</a>
-          <a className="instagram" href="https://www.facebook.com/Parklets-303267193704426/">Facebook</a>        
-        </div>
-        <div className="contact">
-          <div className="chunk">
-            <a href="mailto:contact@parkletsband.com">contact@parkletsband.com</a>
-          </div>
-          <div className="chunk">
-            <a href="mailto:booking@parkletsband.com">booking@parkletsband.com</a>
-          </div>
-          <div className="chunk">
-            <a href="mailto:press@parkletsband.com">press@parkletsband.com</a>
-          </div>
-          <div className="chunk">
-            <a href="mailto:management@parkletsband.com">management@parkletsband.com</a>
-          </div>
-          <div className="chunk">
-            <a href="mailto:management@parkletsband.com">fans@parkletsband.com</a>
-          </div>
-        </div> */}
-
+        </MainContent>
       </Wrapper>
     );
   }
