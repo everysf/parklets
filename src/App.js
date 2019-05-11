@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import anime from 'animejs';
 
 const Wrapper = styled.div`
 
@@ -37,13 +38,14 @@ const MainContent = styled.div`
 
   }
 
-
   @media (max-width: 800px) {
 
-.tagline {
-  max-width: 350px;
-  margin: 20px auto 0; 
-}
+    .tagline {
+      max-width: 350px;
+      margin: 20px auto 0; 
+    }
+
+    padding-bottom: 50px;
 
   }
 
@@ -64,7 +66,12 @@ const Logo = styled.div`
 
     width: 100vw;
     height: 120px;
-    margin: 0 auto -50px;
+    margin: 0 auto 0px;
+
+  }
+
+  .mainsvgfill {
+    fill: black;
   }
 
 `
@@ -108,7 +115,7 @@ class App extends Component {
     return (
       <Wrapper>
         <MainContent>
-          <Logo />
+          <Logo></Logo>
           <Band />
           <a className="tagline" href="https://www.instagram.com/parkletsband/">San Francisco's new Indie-Softrock</a>
           <Links>
@@ -116,7 +123,6 @@ class App extends Component {
             <a href="mailto:parkletsband.com">Management</a>
             <a href="mailto:parkletsband.com">Request Press Kit</a>
             <a href="mailto:parkletsband.com">Fans</a>
-          
           </Links>
         </MainContent>
       </Wrapper>
