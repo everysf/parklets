@@ -8,10 +8,11 @@ const Wrapper = styled.div`
   background-image: url(img/palmtrees.png);
   background-size: cover;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 
 `
 
@@ -67,6 +68,7 @@ const Logo = styled.div`
     width: 100vw;
     height: 120px;
     margin: 0 auto 0px;
+    background-position: center;
 
   }
 
@@ -90,6 +92,7 @@ const Band = styled.div`
     height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
+
   }
 
 `
