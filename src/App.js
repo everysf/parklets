@@ -14,6 +14,10 @@ const Wrapper = styled.div`
   align-items: center;
   padding-bottom: 50px;
 
+  @media (max-width: 800px) {
+    padding-top: 20px;
+  }
+
 `
 
 const MainContent = styled.div`
