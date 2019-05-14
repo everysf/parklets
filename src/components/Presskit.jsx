@@ -83,6 +83,10 @@ const Newspaper= styled.div`
 
   }
 
+  .borderWhite {
+    border: 1px solid white;
+  }
+
 
   @media (max-width: 400px){
     margin: 20px;
@@ -104,7 +108,7 @@ class Home extends Component {
     return (
       <Wrapper>
         <Newspaper>
-          <h1>Parklets Presskit</h1>
+          <h1>Parklets Press Kit</h1>
           <h4>Band Photo</h4>
           <img src="img/thebandweb.jpg"></img>
           <hr />
@@ -162,6 +166,10 @@ class Home extends Component {
           <img src="img/parkletslogobox-01.png"></img>
           <img src="img/parkletslogobox-02.png"></img>
           <img src="img/parkletslogobox-03.png"></img>
+          <img className="borderWhite" src="img/parkletslogosquare-01.png"></img>
+          <img className="borderWhite" src="img/parkletslogosquare-02.png"></img>
+          <img className="borderWhite" src="img/parkletslogosquare-03.png"></img>
+          <img className="borderWhite" src="img/parkletslogosquare-04.png"></img>
           <h4>SVG</h4>
           <img src="img/parkletslogobox-01.svg"></img>
           <img src="img/parkletslogobox-02.svg"></img>
