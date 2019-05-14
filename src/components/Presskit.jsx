@@ -132,6 +132,10 @@ class Home extends Component {
           <h4>Website</h4><p>
             <a href="https://parkletsband.com/">Parkletsband.com</a><br/>
           </p>
+          <hr />
+          <h4>Label</h4><p>
+           <p>Unsigned</p>
+          </p>
           <hr/>
           <h4>Bio</h4>
           <p>Parklets seem to be living the young and fast San Francisco music lifestyle. The band’s music is authentic to who they are–the 5 early 20’s California-natives were drawn to the city and met organically while having fun with friends from SF State and USF. Singer/keyboardist Kendall Kincaid and lead guitarist Kevin Macaraeg have spearheaded the project by writing songs and organizing shenanigans. “Honestly, we just mess around after work and write down whatever sounds good, and sometimes it sticks. We’re trying not to take it too seriously, but hope that people know we mean business.” -Kevin Macaraeg. With help from producer and musician Henry Chadwick, Parklets are not afraid to explore the sonic boundaries. Their creative arrangements and unique sounds push Indie Softrock into 2019.</p>
