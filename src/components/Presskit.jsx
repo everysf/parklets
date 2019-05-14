@@ -119,8 +119,7 @@ class Home extends Component {
           </p>
           <hr />
           <h4>Social Media Links</h4><p>
-            <a href="https://www.instagram.com/
-            parkletsband/">Instagram</a>
+            <a href="https://www.instagram.com/parkletsband/">Instagram</a>
                      {/* //    <a href="twitter.com">Twitter</a>        //     <a href="facebook.com">Facebook</a> */}
           </p>
           <hr/>
@@ -139,7 +138,7 @@ class Home extends Component {
           <h4>Recent News</h4>
           <p>Parklets are hitting the San Francisco music scene strong with their new single: “Get Down”. The band is entering their exponential growth phase. They have pieced together a tight team of musicians, producers, and music business connections that are fueling up the rocketship for launch. After much anticipation, this single marks their first public release which has already gained traction in the San Francisco college communities of SF State and USF. “Get Down”, is an anthem dedicated to the ups and downs of growing up and working hard to make it in the city. With an entire laptop full of demos, they plan to release 2 more singles throughout the summer of 2019, “Joey” and “Maybe”, and their EP in August. </p>
           <h4>Related Artists</h4>
-          <p>The Marias, No Vacation, Wallows, Vampire Weekend, Alvvays, The Cranberries, The Walters, Caroline Rose</p>
+          <p>The Marias, No Vacation, Wallows, Hunny, San Cisco, Hippo Campus, Vampire Weekend, Alvvays, The Cranberries, The Walters, Caroline Rose</p>
           <h4>Members</h4>
           <p>Kendal Kincaid, VOX/Keys<br/>
           Kevin Macaraeg, Lead Guitar<br/>
