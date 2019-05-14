@@ -139,7 +139,7 @@ class Home extends Component {
           </p>
           <h4>Production, Mixing, Mastering</h4>
           <p>
-          <a href="http://www.henrychadwick.net/">Henry Chadwick</a>, (Henry Chadwick, Compound Recordings)<br/><br/>
+          <a href="http://www.henrychadwick.net/">Henry Chadwick</a>, (Henry Chadwick, Compound Recordings)<br/>
           <a href="http://www.cianriordan.com/">Cian Riordan</a>, (The Wombats, Foxygen, Wavves, Julian Lage)
           </p>
           <h4>Genre(s)</h4>
@@ -151,7 +151,7 @@ class Home extends Component {
             parkletsband/">Instagram</a>         //    <a href="twitter.com">Twitter</a>        //     <a href="facebook.com">Facebook</a>
           </p>
           <h4>Date Formed</h4>
-          <p>January 2019</p>
+          <p>March 2019</p>
           <h4>Up Coming Releases</h4>
           <p>
             "Get Down", May 14th, 2019<br/>
