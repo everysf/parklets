@@ -132,7 +132,7 @@ class Home extends Component {
           <Links>
             <a href="mailto:booking@parkletsband.com">Booking</a>
             <a href="mailto:mgmt@parkletsband.com">Management</a>
-            <a href="/presskit">Request Press Kit</a>
+            <a href="mailto:press@parkletsband.com">Request Press Kit</a>
             <a href="mailto:fans@parkletsband.com">Fans</a>
           </Links>
         </MainContent>
