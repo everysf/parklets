@@ -124,8 +124,18 @@ class Home extends Component {
                      {/* //    <a href="twitter.com">Twitter</a>        //     <a href="facebook.com">Facebook</a> */}
           </p>
           <hr/>
+          <h4>Contact</h4><p>
+            <a href="mailto:mgmt@parkletsband.com">Management</a><br/>
+            <a href="mailto:mgmt@parkletsband.com">Press</a><br/>
+            <a href="mailto:mgmt@parkletsband.com">Booking</a>
+          </p>
+          <hr/>
+          <h4>Website</h4><p>
+            <a href="https://parkletsband.com/">Parkletsband.com</a><br/>
+          </p>
+          <hr/>
           <h4>Bio</h4>
-          <p>Parklets seem to be living the young and fast San Francisco music lifestyle. The band’s music is authentic to who they are–the 5 early 20’s California-natives were drawn to the city and met organically while having fun with friends from SF State and USF. Singer/keyboardist Kendall Kincaid and lead guitarist Kevin Macaraeg have spearheaded the project by writing songs and organizing shenanigans. “Honestly, we just mess around after work and write down whatever sounds good, and sometimes it sticks. We’re trying not to take it too seriously, but hope that people know we mean business.” -Kevin Macaraeg. With help from producer and musician Henry Chadwick, Parklets are not afraid to explore the sonic boundaries. Their creative arrangements and unique sounds push Indie Soft Rock into 2019.</p>
+          <p>Parklets seem to be living the young and fast San Francisco music lifestyle. The band’s music is authentic to who they are–the 5 early 20’s California-natives were drawn to the city and met organically while having fun with friends from SF State and USF. Singer/keyboardist Kendall Kincaid and lead guitarist Kevin Macaraeg have spearheaded the project by writing songs and organizing shenanigans. “Honestly, we just mess around after work and write down whatever sounds good, and sometimes it sticks. We’re trying not to take it too seriously, but hope that people know we mean business.” -Kevin Macaraeg. With help from producer and musician Henry Chadwick, Parklets are not afraid to explore the sonic boundaries. Their creative arrangements and unique sounds push Indie Softrock into 2019.</p>
           <h4>Recent News</h4>
           <p>Parklets are hitting the San Francisco music scene strong with their new single: “Get Down”. The band is entering their exponential growth phase. They have pieced together a tight team of musicians, producers, and music business connections that are fueling up the rocketship for launch. After much anticipation, this single marks their first public release which has already gained traction in the San Francisco college communities of SF State and USF. “Get Down”, is an anthem dedicated to the ups and downs of growing up and working hard to make it in the city. With an entire laptop full of demos, they plan to release 2 more singles throughout the summer of 2019, “Joey” and “Maybe”, and their EP in August. </p>
           <h4>Related Artists</h4>
