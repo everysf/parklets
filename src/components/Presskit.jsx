@@ -172,6 +172,8 @@ class Home extends Component {
             "Maybe", July 16th, 2019<br/>
             EP Release (Title to be determined), August 19th, 2019
           </p>
+          <h4>What's a Parklet?</h4>
+          <p>It's a San Francisco thing. Sorry.</p>
           <hr />
           <h4>LOGOS</h4>
           <br/>
